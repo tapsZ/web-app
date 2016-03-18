@@ -1,4 +1,4 @@
-angular.module('ngBoilerplate.blog', ['ui.router', 'ngResource', 'ngBoilerplate.account', 'hateoas'])
+angular.module('App.blog', ['ui.router', 'ngResource', 'App.account', 'hateoas'])
 .config(function($stateProvider) {
     $stateProvider.state('manageBlogs', {
             url:'/manage/blogs?accountId',

@@ -1,4 +1,4 @@
-angular.module('ngBoilerplate.account', ['ui.router', 'ngResource', 'base64'])
+angular.module('App.account', ['ui.router', 'ngResource', 'base64'])
 .config(function($stateProvider) {
     $stateProvider.state('login', {
         url:'/login',
