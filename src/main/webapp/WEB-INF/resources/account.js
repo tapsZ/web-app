@@ -25,7 +25,7 @@ angular.module('App.account', ['ui.router', 'ngResource', 'base64'])
             url:'/accounts/search',
             views: {
                 'main': {
-                    templateUrl:'account/search.tpl.html',
+                    templateUrl:'/views/search.tpl.jsp',
                     controller: 'AccountSearchCtrl'
                 }
             },

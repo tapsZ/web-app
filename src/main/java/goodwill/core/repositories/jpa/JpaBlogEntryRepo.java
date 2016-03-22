@@ -9,9 +9,7 @@ import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 import java.util.List;
 
-/**
- * Created by Chris on 7/10/14.
- */
+
 @Repository
 public class JpaBlogEntryRepo implements BlogEntryRepo {
     @PersistenceContext
