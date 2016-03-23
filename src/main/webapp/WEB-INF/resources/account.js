@@ -4,7 +4,7 @@ angular.module('App.account', ['ui.router', 'ngResource', 'base64'])
         url:'/login',
         views: {
             'main': {
-                templateUrl:'account/login.tpl.html',
+                templateUrl:'views/login.html',
                 controller: 'LoginCtrl'
             }
         },
@@ -14,7 +14,7 @@ angular.module('App.account', ['ui.router', 'ngResource', 'base64'])
             url:'/register',
             views: {
                 'main': {
-                    templateUrl:'account/register.tpl.html',
+                    templateUrl:'account/register.html',
                     controller: 'RegisterCtrl'
                 }
             },
@@ -25,7 +25,7 @@ angular.module('App.account', ['ui.router', 'ngResource', 'base64'])
             url:'/accounts/search',
             views: {
                 'main': {
-                    templateUrl:'/views/search.tpl.jsp',
+                    templateUrl:'/views/search.jsp',
                     controller: 'AccountSearchCtrl'
                 }
             },

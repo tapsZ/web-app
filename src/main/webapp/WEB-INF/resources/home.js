@@ -10,7 +10,7 @@ angular.module( 'App.home', [
     views: {
       "main": {
         controller: 'HomeCtrl',
-        templateUrl: '/views/home.jsp'
+        templateUrl: '/WEB-INF/views/home.jsp'
       }
     },
     data:{ pageTitle: 'Home' }

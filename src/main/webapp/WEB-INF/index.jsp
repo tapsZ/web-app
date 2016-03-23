@@ -84,6 +84,5 @@
   <script src="resources/account.js" ></script>
   <script src="resources/home.js" ></script>
   <script src="resources/blog.js" ></script>  
-    
-    
+   
 </html>
